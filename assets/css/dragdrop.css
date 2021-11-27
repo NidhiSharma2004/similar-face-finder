@@ -1,0 +1,71 @@
+.drag-area {
+  border: 1px solid whitesmoke;
+  border-style: dashed;
+  height: 60%;
+  width: 30%;
+  margin:3rem auto;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.drag-area:hover{
+  border: 2px solid rgb(25,188,139);
+}
+.icn{
+  font-size: 6rem;
+  color: rgba(255, 255, 255, 0.603);
+}
+.drag-text{
+  display: flex;
+  flex-direction: column;
+  /* padding: 2rem; */
+}
+.drag-text h2{
+  padding: 1rem;
+}
+.drag-text span{
+  margin: auto;
+}
+.browse-file-btn{
+  margin: 1rem auto;
+  position: relative;
+}
+.browse-file-btn button, .use-photo-btn{
+  border: 1px solid rgb(25,188,139);
+  /* background-color: rgba(255, 255, 255, 0.733); */
+  font-size: 1.1rem;
+  border-radius: 4px;
+  width: 8rem; 
+  color: rgb(25,188,139);
+  letter-spacing: 2px;
+  transition: .3s;
+  background-color: transparent;
+  height:3rem;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+}
+button::before, .use-photo-btn::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: rgb(25,188,139);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 300ms ease-in-out;
+}
+button:hover, .use-photo-btn:hover{
+  background-color: rgb(25,188,139);
+  color: whitesmoke;
+  box-shadow: 0 0 5px 0 rgb(25,188,139);
+}
+
+.browse-file-btn button:hover::before, .use-photo-btn:hover::before{
+  transform: scaleX(1);
+}

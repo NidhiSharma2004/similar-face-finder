@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href=".assets/css/main.css" />
+    <link rel="stylesheet" href=".assets/css/dragdrop.css" />
+    <link rel="stylesheet" href=".assets/css/instruction.css" />
+    <link rel="stylesheet" href=".assets/css/responsive500.css" />
+    <link rel="stylesheet" href=".assets/css/responsive900.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="menu">
+      <i class="fas fa-bars"></i>
+    </div>
+    <header>
+      <!-- navbar -->
+      <nav>
+        <div class="nav_title">STAR BY FACE</div>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+        </ul>
+      </nav>
+      <!-- drag and drop -->
+      <div class="drag-area">
+        <div class="icn"><i class="fas fa-cloud-upload-alt"></i></div>
+        <div class="drag-text">
+          <h2>Drag & Drop to Upload File</h2>
+          <span>OR</span>
+          <div class="browse-file-btn">
+            <button>Browse File</button>
+            <input type="file" hidden />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- image slider -->
+    <section class="slider-container">
+      <div class="slider-box">
+        <div id="slider">
+          <img src="images/modi.jpg" />
+          <img src="images/yogi.jpg" />
+          <img src="images/ram.jpg" />
+          <img src="images/bal.jpg" />
+        </div>
+      </div>
+      <div class="indicator">
+        <span id="btn1"></span>
+        <span id="btn2"></span>
+        <span id="btn3"></span>
+        <span id="btn4"></span>
+      </div>
+      <div class="use-photo-btn">use image</div>
+    </section>
+    <!-- instructions -->
+    <section class="instructions">
+      <div class="instruction1">
+        <h2>1.upload a photo</h2>
+        <div class="instruction-icon"><i class="fas fa-file-upload"></i></div>
+        <p>
+          <span>
+            There should be only one person in the photo. Recommendations: The
+            face should be clearly visible, it’s better to use frontal photos.
+            Face recognition accuracy depends on the resolution and quality of a
+            face image
+          </span>
+        </p>
+      </div>
+      <div class="instruction1">
+        <h2>2.The system detects the face</h2>
+        <div class="instruction-icon"><i class="fas fa-file-upload"></i></div>
+        <p>
+          The system detects the face and creates a facial pattern. System
+          facial point detection can locate the key components of faces,
+          including eyebrows, eyes, nose, mouth and position.
+        </p>
+      </div>
+        <div class="instruction1" id="result">
+          <h2>3.Enjoy the result!</h2>
+          <div class="instruction-icon"><i class="fas fa-file-upload"></i></div>
+          <p>
+            The Neural Network compares the person with celebrity faces and
+            suggests the most similar ones.
+          </p>
+        </div>
+    </section>
+  </body>
+  <!-- <script src="./js/dragdrop.js"></script> -->
+  <script src="./js/slider.js"></script>
+</html>

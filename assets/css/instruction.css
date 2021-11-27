@@ -1,0 +1,22 @@
+.instructions{
+    /* border: 2px solid ; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,20rem);
+    height: 46vh;
+    width: 90%;
+    gap: 2rem;
+    margin:auto;
+    justify-content: center;
+}
+.instruction1{
+    background-color: #dce6f5;
+    text-align: center;
+    color: #0F2027;
+    box-shadow: 0 0 20px 0 #0F2027;
+}
+.instruction-icon{
+    font-size: 5rem;
+}
+.instruction1 p{
+    margin: 10px;
+}
