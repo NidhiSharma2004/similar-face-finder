@@ -41,6 +41,14 @@
     }
     
 }
+@media only screen and (max-width:900px){
+    .grid-container .grid{
+        grid-template-columns: repeat(auto-fit,13rem);
+    }
+    .grid .grid-photo{
+        height: 13rem;
+    }
+}
 @media only screen and (max-width:750px){
     .instructions .instruction1{
         width: 16rem;
@@ -49,5 +57,15 @@
     .instructions #result{
         width: 16rem;
         margin: auto;
+    }
+}
+@media only screen and (max-width:700px){
+    .grid-container .grid{
+        grid-template-columns: repeat(auto-fit,11rem);
+        gap: 20px;
+        background-color: brown;
+    }
+    .grid .grid-photo{
+        height: 11rem;
     }
 }
