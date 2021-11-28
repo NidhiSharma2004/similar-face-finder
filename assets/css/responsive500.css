@@ -58,14 +58,25 @@
         width: 16rem;
         margin: auto;
     }
-}
-@media only screen and (max-width:700px){
+    .grid-container{
+        width: 99%;
+        margin: auto;
+    }
     .grid-container .grid{
         grid-template-columns: repeat(auto-fit,11rem);
         gap: 20px;
-        background-color: brown;
     }
     .grid .grid-photo{
         height: 11rem;
     }
 }
+
+/* @media only screen and (max-width:500px){ */
+    /* .grid{
+        grid-template-columns: repeat(auto-fit,7rem);
+    }
+    .grid .grid-photo{
+        height: 7rem;
+    }
+} */
+    
