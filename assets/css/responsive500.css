@@ -3,6 +3,9 @@
     .instructions #result{
         width: 42rem;
     }
+    header{
+        height:61vh;
+    }
     nav{
         margin: 0 1rem;
     }
@@ -16,18 +19,35 @@
         display: block;
     }
     .drag-area{
-        height: 69%;
+        height:15rem;
         margin: 1rem auto;
         width: 20rem !important;
     }
+    .drag-area .icn{
+        font-size: 4rem;
+    }
     .drag-area .drag-text{
         text-align: center;
-        padding: 1rem !important;
+    }
+    .drag-area .drag-text h2{
+        padding: 0;
+    }
+    .drag-area .drag-text span{
+        padding-top: 13px;
+    }
+    .slider-container{
+        width: 191px;
+        height: 33vh;
     }
     
 }
 @media only screen and (max-width:750px){
+    .instructions .instruction1{
+        width: 16rem;
+        margin: auto;
+    }
     .instructions #result{
-        width: 20rem;
+        width: 16rem;
+        margin: auto;
     }
 }
