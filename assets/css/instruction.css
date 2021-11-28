@@ -1,8 +1,7 @@
 .instructions{
-    /* border: 2px solid ; */
     display: grid;
     grid-template-columns: repeat(auto-fit,20rem);
-    height: 46vh;
+    height: 50vh;
     width: 90%;
     gap: 2rem;
     margin:auto;
@@ -11,6 +10,7 @@
 .instruction1{
     background-color: #dce6f5;
     text-align: center;
+    height: 100%;
     color: #0F2027;
     box-shadow: 0 0 20px 0 #0F2027;
 }

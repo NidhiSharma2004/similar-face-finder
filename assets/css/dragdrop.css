@@ -32,7 +32,7 @@
   margin: 1rem auto;
   position: relative;
 }
-.browse-file-btn button, .use-photo-btn{
+.browse-file-btn button, .use-photo-btn, .btn .again_btn, .btn .share_btn{
   border: 1px solid rgb(25,188,139);
   /* background-color: rgba(255, 255, 255, 0.733); */
   font-size: 1.1rem;
@@ -47,7 +47,7 @@
   z-index: 1;
   position: relative;
 }
-button::before, .use-photo-btn::before{
+button::before, .use-photo-btn::before, .btn .again_btn::before, .btn .share_btn::before{
   content: '';
   position: absolute;
   top: 0;
@@ -60,12 +60,12 @@ button::before, .use-photo-btn::before{
   transform-origin: left;
   transition: transform 300ms ease-in-out;
 }
-button:hover, .use-photo-btn:hover{
+button:hover, .use-photo-btn:hover, .btn .again_btn:hover, .btn .share_btn:hover{
   background-color: rgb(25,188,139);
   color: whitesmoke;
   box-shadow: 0 0 5px 0 rgb(25,188,139);
 }
 
-.browse-file-btn button:hover::before, .use-photo-btn:hover::before{
+.browse-file-btn button:hover::before, .use-photo-btn:hover::before, .btn .again_btn:hover::before, .btn .share_btn:hover::before{
   transform: scaleX(1);
 }

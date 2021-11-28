@@ -137,7 +137,7 @@ nav ul li:hover::after{
     background-color: rgb(25,188,139);
 }
 .use-photo-btn{
-    height: 12% !important;
+    height: 16% !important;
     margin: 7px auto;
     font-size: 1.1rem;
     background-color: #0F2027 !important;
@@ -146,3 +146,34 @@ nav ul li:hover::after{
     border-radius: 5px;
 } 
 
+/* second page */
+.selected-image-container{
+    width: 80%;
+    height: 67vh;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns:20rem;
+    justify-content: center;
+}
+.selected-image-container .selected-image{
+    height: 100%;
+}
+.selected-image-container .selected-image img{
+    width: 100%;
+    height: 85%;
+    border: 5px solid #0F2027;
+}
+.btn{
+    display: flex!important;
+    justify-content: space-around!important;
+    width: 13rem!important;
+    margin: .6rem auto!important;
+}
+.again_btn{
+    width: 36%!important; 
+    background-color: #0F2027!important;
+}
+.share_btn{
+    background-color: #0F2027!important;
+    width: 60%!important; 
+}
