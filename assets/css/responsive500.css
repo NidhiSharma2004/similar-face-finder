@@ -2,7 +2,7 @@
 @media only screen and (max-width:1150px){
     .instructions #result{
         width: 42rem;
-        height: 10rem;
+        height: 15rem;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -64,7 +64,7 @@
     .instructions #result{
         width: 16rem;
         margin: auto;
-        height: 20rem;
+        height: 18rem;
     }
     .grid-container{
         width: 99%;
