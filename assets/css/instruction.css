@@ -1,10 +1,10 @@
 .instructions{
     display: grid;
     grid-template-columns: repeat(auto-fit,20rem);
-    height: 50vh;
+    
     width: 90%;
     gap: 2rem;
-    margin:auto;
+    margin:1rem auto;
     justify-content: center;
 }
 .instruction1{

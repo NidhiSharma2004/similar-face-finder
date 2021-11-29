@@ -2,6 +2,13 @@
 @media only screen and (max-width:1150px){
     .instructions #result{
         width: 42rem;
+        height: 10rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .instructions #result h2{
+        margin-top: 2.2rem;
     }
     header{
         height:61vh;
@@ -71,12 +78,17 @@
     }
 }
 
-/* @media only screen and (max-width:500px){ */
-    /* .grid{
-        grid-template-columns: repeat(auto-fit,7rem);
+@media only screen and (max-width:500px){ 
+    .grid-container{
+        width: 100%;
+        border: 2px solid orangered;
+    }
+     .grid{
+        grid-template-columns:repeat(2,1fr);
+
     }
     .grid .grid-photo{
-        height: 7rem;
+        /* height: 7rem; */
     }
-} */
+} 
     
