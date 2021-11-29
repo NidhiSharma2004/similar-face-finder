@@ -64,6 +64,7 @@
     .instructions #result{
         width: 16rem;
         margin: auto;
+        height: 20rem;
     }
     .grid-container{
         width: 99%;
